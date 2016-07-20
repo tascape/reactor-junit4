@@ -4,11 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.tascape.qa</groupId>
-    <artifactId>th-junit4</artifactId>
+    <groupId>com.tascape</groupId>
+    <artifactId>reactor-junit4</artifactId>
     <version>4.12</version>
 
-    <name>th-junit4</name>
+    <name>reactor-junit4</name>
     <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
 
     <properties>
@@ -45,9 +45,9 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git:git@github.com:tascape/th-junit4.git</connection>
-        <developerConnection>scm:git:git@github.com:tascape/th-junit4.git</developerConnection>
-        <url>git:git@github.com:tascape/th-junit4.git</url>
+        <connection>scm:git:git@github.com:tascape/reactor-junit4.git</connection>
+        <developerConnection>scm:git:git@github.com:tascape/reactor-junit4.git</developerConnection>
+        <url>git:git@github.com:tascape/reactor-junit4.git</url>
     </scm>
 
     <dependencies>
