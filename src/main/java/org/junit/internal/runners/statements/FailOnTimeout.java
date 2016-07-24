@@ -70,7 +70,7 @@ public class FailOnTimeout extends Statement {
     @Deprecated
     public FailOnTimeout(Statement statement, long timeoutMillis) {
         this(builder().withTimeout(timeoutMillis, TimeUnit.MILLISECONDS), statement);
-        LOG.debug("Test timeout {} {}", this.timeout, this.timeUnit);
+        LOG.debug("Case timeout {} {}", this.timeout, this.timeUnit);
     }
 
     private FailOnTimeout(Builder builder, Statement statement) {
@@ -78,7 +78,7 @@ public class FailOnTimeout extends Statement {
         timeout = builder.timeout;
         timeUnit = builder.unit;
         lookForStuckThread = builder.lookForStuckThread;
-        LOG.debug("Test timeout {} {}", this.timeout, this.timeUnit);
+        LOG.debug("Case timeout {} {}", this.timeout, this.timeUnit);
     }
 
     /**
