@@ -6,7 +6,7 @@
 
     <groupId>com.tascape</groupId>
     <artifactId>reactor-junit4</artifactId>
-    <version>4.12</version>
+    <version>4.12.1</version>
 
     <name>reactor-junit4</name>
     <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
